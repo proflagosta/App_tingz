@@ -1,5 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
-@app.route('/')
-def hello_world():
-return 'Hello world!'
+def funct(x,y):
+  
+  x = int(input("Enter a number"))
+  y = int(input("Enter another number"))
+  
+  z = x + y
+  
+  return z
